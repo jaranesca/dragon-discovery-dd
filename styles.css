@@ -1,0 +1,111 @@
+/* General Styles */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: rgb(32,33,36); */
+    /* background: -moz-linear-gradient(29deg, rgba(32,33,36,1) 0%, rgba(205,72,9,1) 100%); */
+    /* background: -webkit-linear-gradient(29deg, rgba(32,33,36,1) 0%, rgba(205,72,9,1) 100%); */
+    /* background: linear-gradient(29deg, rgba(32,33,36,1) 0%, rgba(205,72,9,1) 100%); */
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202124", endColorstr="#cd4809", GradientType=1); */
+    background-image: url('images/dd2.jpeg'); /* Update with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center center; /* Center the image */
+
+    margin: 0;
+    padding: 20px; /* Adjust padding for a better layout */
+    color: #333;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full height to center content */
+}
+
+
+/* Container */
+.container {
+    max-width: 600px; /* Set a maximum width */
+    width: 100%; /* Full width for responsiveness */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Header */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Dropdown */
+#monsterDropdown {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccd1d9;
+    border-radius: 6px;
+    font-size: 16px;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    color: white;
+}
+
+/* Button */
+#searchButton {
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    color: #ffffff;
+    border: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Make it block to align with dropdown */
+    margin: 0 auto; /* Center it */
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#searchButton:hover {
+    background-color: #003f8a;
+}
+
+/* Result Section */
+.monster-result {
+    margin-top: 30px;
+    padding: 10px; /* Reduced padding */
+    border: 1px solid #ccd1d9;
+    border-radius: 6px;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    font-size: 14px; /* Smaller font size */
+}
+
+.monster-result h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; /* Reduced font size */
+}
+
+.monster-result p {
+    margin: 5px 0;
+    color: white; /* White text */
+    font-size: 14px; /* Smaller font size */
+}
+
+.monster-image {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 15px;
+    height: auto; /* Ensure the image scales properly */
+    max-height: 200px; /* Set a maximum height */
+}
